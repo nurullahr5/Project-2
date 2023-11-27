@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*container start*/
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.logo{
+    position: absolute;
+    left: 90px;
+    top: 50px;
+}
+
+.logo a{
+    text-decoration: none;
+    text-shadow: 1px 1px 30px  rgba(0,0,0,0.2);
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+    letter-spacing: 1;
+}
+
+.searcharea{
+    position: fixed;
+    top: 50px;
+    right: 90px;
+    width: 170px;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    box-sizing: border-box;
+    z-index: 1;
+    border: none;
+    outline: none;
+}
+
+.searchbox input{
+    width: 90px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    padding: 0 10px;
+}
+
+.searchbox input::placeholder{
+    color: rgb(44, 42, 42);
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: .8rem;
+    font-family: poppins;
+}
+
+.section1{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-15%,-50%);
+}
+
+.section1 img{
+    height: 300px;
+}
+
+.section2{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%,-50%);
+}
+
+.section2 h1, h2{
+    font-family: Roboto;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 60px;
+    font-size: 4rem;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.08);
+    letter-spacing: 3px;
+    color: #3D3D4A;
+    text-transform: uppercase;
+}
+
+.color{
+    color: #7A72FF;
+}
+
+.section2 h1{
+    letter-spacing: 32px;
+}
+
+.section2 .btn1{
+    width: 150px;
+    height: 40px;
+    background-color: #2f2e41;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    margin-top: 20px;
+    color: #fff;
+    font-family: calibri;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: .5px;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+}
+
+.section2 .btn1:hover{
+    color: #fff;
+    background-color: #7A72FF;
+    transition: all ease 0.5s;
+}
+
+.iconarea{
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    padding: 5px 0px;
+    z-index: 1;
+}
+
+.iconarea a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+.iconarea a i{
+    color: rgb(69, 67, 67);
+    font-size: 20px;
+}
+
+.iconarea a:hover .fa-facebook{
+    color: rgb(8, 8, 245);
+}
+.iconarea a:hover .fa-twitter{
+    color: rgb(14, 14, 241);
+}
+.iconarea a:hover .fa-instagram{
+  color: rgb(247, 6, 6);
+}
+.iconarea a:hover .fa-youtube{
+    color: rgb(227, 15, 15);
+}
+/*container end*/
