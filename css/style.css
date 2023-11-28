@@ -305,6 +305,9 @@ span{
     letter-spacing: .5px;
     color: #bdbdbd;
 }
+.aboutbox a{
+    text-decoration: none;
+}
 /*about section end*/
 
 /*notification section start*/
