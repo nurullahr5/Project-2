@@ -81,7 +81,7 @@ body{
 }
 
 .section2 h1, h2{
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 0px;
     line-height: 60px;
@@ -261,3 +261,122 @@ span{
     box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
     color: #fff;
 }
+/*product section end*/
+
+/*about section start*/
+
+.about{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.aboutbox{
+    width: 40%;
+    font-family: sans-serif;
+}
+
+.aboutbox img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.aboutbox h1{
+    color: #333;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.aboutbox h4{
+    color: #333;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aboutbox p{
+    font-size: 1rem;
+    letter-spacing: .5px;
+    color: #bdbdbd;
+}
+/*about section end*/
+
+/*notification section start*/
+
+.notification{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification h1{
+    font-size: 1.5rem;
+    color: rgb(56, 56, 56);
+}
+.notificationinput{
+    width: 500px;
+    height: 60px;
+    color: #fff;
+    border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    margin-top: 30px;
+}
+
+.email{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.btn3{
+    width: 120px;
+    height: 40px;
+    background-color: #202020;
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn3:hover{
+    background-color: #6b60ec;
+    transition: all ease .5s;
+}
+
+/*notification section end*/
+
+/*footer start*/
+footer{
+   background-color: black !important;
+   padding: 20px;
+}
+
+footer p{
+    color: #f2f2f2;
+    text-align: center;
+}
+/*footer end*/
