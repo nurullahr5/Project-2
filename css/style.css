@@ -182,8 +182,21 @@ span{
     background-size: 1000px;
     border-radius: 10px;
 }
-
-.productsection h3{
+.productsectionb{
+    width: 85%;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: -60px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px;
+}
+h3{
     margin: 20px;
     text-shadow:  2px 2px 10px rgba(0,0,0,0.05);
     font-family: Arial, Helvetica, sans-serif;
@@ -475,4 +488,31 @@ footer p{
         width: 100px;
         height: 30px;
     }
+    .aboutbox img {
+        width: 132%;
+        height: 150%;
+        object-fit: contain;
+        margin-top: -140px;
+    }
+    .aboutbox {
+        width: 45%;
+    }
+    .aboutbox h1 {
+        color: #333;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    .aboutbox h4 {
+        color: #333;
+        font-size: .8rem;
+        font-weight: 500;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .aboutbox p {
+        font-size: .6rem;
+        letter-spacing: .5px;
+        color: #bdbdbd;
+      }
+
 }
