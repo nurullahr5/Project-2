@@ -399,6 +399,8 @@ footer p{
 
 /*media query starts*/
 
+/*for mobile media start*/
+
 @media(max-width: 769px){
     .logo{position: absolute;
         left: 30px;
@@ -516,3 +518,7 @@ footer p{
       }
 
 }
+/*for mobile media end*/
+
+
+
